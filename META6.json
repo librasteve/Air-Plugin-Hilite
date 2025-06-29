@@ -9,7 +9,7 @@
     "Air::Functional",
     "Hilite"
   ],
-  "description": "blah blah blah",
+  "description": "Use Hilite / Rainbow code highlighting in the Air web authoring tools",
   "license": "Artistic-2.0",
   "name": "Air::Plugin::Hilite",
   "perl": "6.d",
