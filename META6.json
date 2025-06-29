@@ -1,0 +1,27 @@
+{
+  "auth": "zef:librasteve",
+  "authors": [
+    "librasteve"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "Air::Functional",
+    "Rainbow"
+  ],
+  "description": "blah blah blah",
+  "license": "Artistic-2.0",
+  "name": "Air::Plugin::Hilite",
+  "perl": "6.d",
+  "provides": {
+    "Air::Plugin::Hilite": "lib/Air/Plugin/Hilite.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
