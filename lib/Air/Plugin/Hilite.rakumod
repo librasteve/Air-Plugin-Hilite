@@ -66,7 +66,7 @@ role Air::Plugin::Hilite does Tag {
     method warnings { note $!tmpl.warnings }
 
     multi method HTML {
-        my %prm = :contents($!code), :$!lang;
+        my %prm = :contents($!code), :$!lang, :!label;
         $!hltr.templates<code>(%prm, $!tmpl);
     }
 
