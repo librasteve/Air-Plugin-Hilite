@@ -2,6 +2,9 @@ Revision history for Air::Plugin::Hilite
 
 {{$NEXT}}
 
+0.0.4  2025-07-15T16:26:23+01:00
+    - JS-LINKS => SCRIPT-LINKS, CSS-LINKS => STYLE-LINKS
+
 0.0.3  2025-07-05T12:24:58+01:00
     - label option (set off)
 
