@@ -70,11 +70,11 @@ role Air::Plugin::Hilite does Tag {
         $!hltr.templates<code>(%prm, $!tmpl);
     }
 
-    method JS-LINKS  { @!js-links }
-    method SCRIPT    { $!script }
+    method SCRIPT-LINKS    { @!js-links }
+    method SCRIPT      { $!script }
 
-    method CSS-LINKS { @!css-links }
-    method SCSS      { $!scss }
+    method STYLE-LINKS   { @!css-links }
+    method SCSS        { $!scss }
 }
 
 sub hilite(*@a, *%h) is export { Air::Plugin::Hilite.new( |@a, |%h ) };
