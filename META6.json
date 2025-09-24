@@ -6,8 +6,8 @@
   "build-depends": [
   ],
   "depends": [
-    "Air::Functional",
-    "Hilite"
+    "Air:ver<0.0.29>:auth<zef:librasteve>",
+    "Hilite:ver<0.2.6>:auth<zef:librasteve>"
   ],
   "description": "Use Hilite / Rainbow code highlighting in the Air web authoring tools",
   "license": "Artistic-2.0",
@@ -22,5 +22,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
