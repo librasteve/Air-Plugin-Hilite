@@ -1,26 +1,19 @@
 {
-  "auth": "zef:librasteve",
-  "authors": [
-    "librasteve"
-  ],
-  "build-depends": [
-  ],
-  "depends": [
-    "Air:ver<0.1.0>:auth<zef:librasteve>",
-    "Hilite:ver<0.2.6>:auth<zef:librasteve>"
-  ],
-  "description": "Use Hilite / Rainbow code highlighting in the Air web authoring tools",
-  "license": "Artistic-2.0",
-  "name": "Air::Plugin::Hilite",
-  "provides": {
-    "Air::Plugin::Hilite": "lib/Air/Plugin/Hilite.rakumod"
-  },
-  "resources": [
-  ],
-  "source-url": "https://github.com/librasteve/Air-Plugin-Hilite.git",
-  "tags": [
-  ],
-  "test-depends": [
-  ],
-  "version": "0.0.6"
+    "name": "Air::Plugin::Hilite",
+    "description": "Use Hilite / Rainbow code highlighting in the Air web authoring tools",
+    "version": "0.0.6",
+    "authors": [
+        "librasteve"
+    ],
+    "auth": "zef:librasteve",
+    "depends": [
+        "Air:ver<0.1.0>:auth<zef:librasteve>",
+        "Hilite:ver<0.2.6>:auth<zef:librasteve>"
+    ],
+    "build-depends": [],
+    "provides": {
+        "Air::Plugin::Hilite": "lib/Air/Plugin/Hilite.rakumod"
+    },
+    "license": "Artistic-2.0",
+    "source-url": "https://github.com/librasteve/Air-Plugin-Hilite.git"
 }
