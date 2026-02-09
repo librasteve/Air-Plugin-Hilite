@@ -1,6 +1,7 @@
 Revision history for Air::Plugin::Hilite
 
 {{$NEXT}}
+    - rm pin to Air:ver
 
 0.0.8  2026-01-11T14:59:23Z
     - lift pin to Air:ver<0.1.5>
